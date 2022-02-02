@@ -27,3 +27,15 @@ Some common link-time errors:
 <li>Using a function that was never defined (more on this later)</li>
 <li>Writing Main()</li> 
 <li>instead of main()</li>
+
+<h1>Run-time Errors</h1>
+Some common run-time errors:
+<li>Division by zero also known as division error.</li> <p>These types of error are hard to find as the compiler doesn’t point to the line at which the error occurs.</p>
+<li>Trying to open a file that doesn’t exist</li>
+
+<h1>Logic Errors</h1>
+<p>Once we have removed the compile-time errors, link-time errors, and run-time errors, the program runs successfully. But sometimes, the program doesn’t do what we want it to do or no output is produced. yummm</p>
+Some common logic errors:
+<li>Program logic is flawed</li>
+<li>Some “silly” mistake in an if statement or a for/while loop</li>
+<h3>Note: Logic errors don’t have error messages. Sometimes</h3>
